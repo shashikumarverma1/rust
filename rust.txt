@@ -5,7 +5,7 @@ fn main() {
      println!("{}", reverce_string(my_string));
      
 }
-
+check pelindrome
 fn is_pelindrome(s: &str) -> bool {
     let mut str = String::new();
      for c in s.chars() {
@@ -20,6 +20,7 @@ fn is_pelindrome(s: &str) -> bool {
     }
     
 }
+reverce string
 fn reverce_string(s: &str) -> String {
     let mut str = String::new();
      for c in s.chars() {
@@ -29,7 +30,7 @@ fn reverce_string(s: &str) -> String {
     // println!("{}", str);
     return str
 }
-
+is prime problem
 fn is_prime(n: u32) -> bool {
     if n <= 1 {
         return false;
